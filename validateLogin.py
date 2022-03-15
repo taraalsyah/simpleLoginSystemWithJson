@@ -10,6 +10,7 @@ write_json(data)
 u = 'tara'
 p = 'tara123'
 x=len(data)
+s=[]
 for i in range(len(data)):
     databaru = data[i].values()
     if u in databaru and p in databaru:
